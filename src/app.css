@@ -1,0 +1,78 @@
+body {
+  margin-top: 20px;
+  background-color: #001536;
+  background-image: radial-gradient(ellipse 50% 70% at 50% 0,#002c74 20%,#001536);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ui.four.cards {
+  margin-bottom: 200px;
+}
+.menu {
+  margin-bottom: 20px;
+}
+
+.popup {
+  max-width: 400px !important;
+}
+
+.card-image {
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 0;
+}
+.ui.card>:first-child, .ui.cards>.card>:first-child {
+  border-radius: 0!important;
+}
+.ui.secondary.menu .item {
+  color: #fff;
+}
+.ui.card>.button, .ui.card>.buttons, .ui.cards>.card>.button, .ui.cards>.card>.buttons{
+  width: 100%;
+  border-radius: 0!important;
+  margin: 0;
+}
+.ui.secondary.menu .dropdown.item:hover, .ui.secondary.menu .link.item:hover, .ui.secondary.menu a.item:hover {
+  background-color: #fff!important;
+}
+.ui.secondary.menu .active.item {
+  background-color: #fff;
+}
+.ui.divided.list>.item {
+  display: flex;
+}
+.ui.divided.list>.item .right {
+  order: 3;
+  margin-left: auto;
+}
+.ui.four.cards {
+  background-color: rgba(0,0,0,.5);
+  margin: 20px 0 200px 0;
+}
+.ui.card, .ui.cards>.card {
+  background-color: #262b34;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.ui.card>.content>.header, .ui.cards>.card>.content>.header {
+  color: #fff;
+}
+.ui.card .meta, .ui.cards>.card .meta {
+  color: rgba(255,255,255,.5);
+}
+.ui.card>.extra a:not(.ui), .ui.cards>.card>.extra a:not(.ui) {
+  color: rgba(255,255,255,.8)!important ;  
+}
+.ui.card .ui.button {
+  background-color: #383b41;
+  color: #8a8a8a;
+  text-shadow: none;
+}
+.ui.card .ui.button:hover {
+  color: #fff;
+}
