@@ -8,5 +8,4 @@ E-shop video games for PS4 - [Demo](http://playstagnation.surge.sh/)
 * React Logger
 * Axios
 * Lodash
-* Semantic UI (React)
-"# playstagnation" 
+* Semantic UI (React) 
